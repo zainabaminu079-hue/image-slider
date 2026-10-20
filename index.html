@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slides">
+                <!-- Slide 1 -->
+                <div class="slide active">
+                    <img src="https://unsplash.com" alt="Beach Scene">
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="https://unsplash.com" alt="Mountain Peak">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="https://unsplash.com" alt="Forest Pathway">
+                </div>
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <img src="https://unsplash.com" alt="Beautiful Canyon">
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button class="prev-btn" id="prevBtn">&#10094;</button>
+            <button class="next-btn" id="nextBtn">&#10095;</button>
+
+            <!-- Indicators (Dots) -->
+            <div class="dots-container" id="dotsContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
